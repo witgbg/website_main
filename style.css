@@ -2,6 +2,7 @@
 /* BASIC TYPOGRAPHY */
 /*--------------------*/
 
+
 body,html{
   overflow-x:hidden;
 }
@@ -461,21 +462,7 @@ img{
 .about_slider .slick-dots li.slick-active button:before {
   opacity: 0.75;
 }
-.skills_area{
-	float: left;
-	display: inline;
-	width: 100%;
-	min-height: 350px;
-	padding: 85px 0px;
-	background-image: url(img/skills_bg.jpg);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	position: relative;
-}
-.skills{
-	position: relative;
-	z-index: 999;
-}
+
 .heading h3 {
   color: #fff;
   display: inline-block;
@@ -660,6 +647,7 @@ div[data-dimension] {
   padding: 20px 10px;
   text-align: center;
   width: 100%;
+  z-index: 10;
 }
 .single_contact_feaured > i {
   font-size: 50px;
@@ -672,9 +660,7 @@ div[data-dimension] {
   font-weight: 800;
   color: #ffffff;
 }
-.single_contact_feaured>a{
-	color: #888888;
-}
+
 
 
 #contactFeature{
